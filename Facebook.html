@@ -84,7 +84,7 @@ On desktop, this div is visible all of the time. -->
 
                     <!-- Left-aligned items. -->
 
-                    <div class="input-group">
+                    <div class="input-group fb-left-sidebar">
 
                         <input type="text" class="form-control fb-search" placeholder="Search Facebook">
 
@@ -135,14 +135,14 @@ On desktop, this div is visible all of the time. -->
                             <button type="button" class="btn btn-default navbar-btn">
 
                                 <span class="glyphicon glyphicon-comment"></span>
-                                <span class="badge">5</span>
+                                <span class="badge pull-right">5</span>
 
                             </button>
 
                             <button type="button" class="btn btn-default navbar-btn">
 
                                 <span class="glyphicon glyphicon-globe"></span>
-                  <span class="badge">1</span>
+                  <span class="badge pull-right">1</span>
 
                             </button>
 
@@ -153,7 +153,7 @@ On desktop, this div is visible all of the time. -->
                             <button type="button" class="btn btn-default navbar-btn">
 
                                   <span class="glyphicon glyphicon-lock"></span>
-                                  <span class="badge">3</span>
+                                  <span class="badge pull-right">3</span>
 
                             </button>
 
@@ -199,39 +199,6 @@ What's the difference between these two types of container? There's a
 good answer here: http://stackoverflow.com/a/22263969 -->
 
     <div class="container">
-        <div class="chat-popup">
-
-            <div class="container-fluid">
-
-                <div class="row">
-
-                    <div class="col-md-8">
-
-                        <span class="green"> </span> Chat (32)
-
-                    </div>
-                    <div class="col-md-4">
-
-                        <div class="btn-group pull-right" role="group">
-                            <button type="button" class="btn btn-xs">
-                                                  <span class="glyphicon glyphicon-pencil"></span>
-                                          </button>
-
-                            <button type="button" class="btn btn-xs">
-
-                    <span class="glyphicon glyphicon-asterisk"></span>
-
-                        </button>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
         <!-- The row that contains the three main columns of the website. -->
         <div class="row">
             <div class="col-md-2">
@@ -239,12 +206,9 @@ good answer here: http://stackoverflow.com/a/22263969 -->
                 <ul class="nav nav-pills nav-stacked">
                     <li role="presentation"><a href="#">John Vilk</a>
                     </li>
-
                     <li role="presentation">
-
                         <a href="#"><span class="glyphicon glyphicon-pencil"></span>
                       Edit Profile</a>
-
                     </li>
 
                     <!-- List items that are just text are not indented, and look like the
@@ -369,6 +333,25 @@ Amherst, MA</a>
 
                 </ul>
 
+            </div>
+            <div class="chat-popup">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <span class="green"><b>.</b></span> Chat (32)
+                        </div>
+                        <div class="col-md-4">
+                            <div class="btn-group pull-right" role="group">
+                                <button type="button" class="btn btn-xs">
+                                    <span class="glyphicon glyphicon-pencil"></span>
+                                </button>
+                                <button type="button" class="btn btn-xs">
+                        <span class="glyphicon glyphicon-asterisk"></span>
+                              </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <!-- Main feed: A cell that spans 7 columns -->
@@ -682,7 +665,7 @@ Amherst, MA</a>
 
             <!-- Right sidebar: A cell that spans 3 columns -->
 
-            <div class="col-md-3">
+            <div class="col-md-3 fb-right-sidebar fb-right-sidebar .glyphicon-gift fb-trending>.row:first-child li a fb-trending>.row:first-child li.active a fb-trending>.row:nth-child(2) .glyphicon-flash ">
 
                 <!-- Ticker. -->
 
